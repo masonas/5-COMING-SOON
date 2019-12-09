@@ -54,8 +54,16 @@
             margin-right: 5%;
             margin-bottom: 20px;
         }
- 
-.content {
+@media (max-width: 700px) {
+    .hero > .row {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+ .content {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color:  #fff;
@@ -93,8 +101,39 @@
                 color: #EA1E63;
                 text-decoration: none;
             }
+
+@media (max-width: 1100px) {
+    .content > .row {
+        width: 800px;
+        margin-left: calc( (100% - 800px ) / 2 );
+        margin-right: calc( (100% - 800px ) / 2 );
+    }
+}
+@media (max-width: 900px) {
+    .content > .row {
+        width: 600px;
+        margin-left: calc( (100% - 600px ) / 2 );
+        margin-right: calc( (100% - 600px ) / 2 );
+    }
+        .content > .row > .left {
+            width: 100%;
+            margin-bottom: 80px;
+        }
+        .content > .row > .right {
+            width: 100%;
+        }
+    }
+    @media (max-width: 700px) {
+        .content > .row {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
  
-footer {
+footer { 
      padding-bottom: 60px;
      text-align: center;
  }  
@@ -139,4 +178,37 @@ footer {
             color: #fff;
             text-decoration: none;
         }
+@media (max-width: 1100px) {
+    footer > .row {
+        width: 800px;
+        margin-left: calc( (100% - 800px) / 2 );
+        margin-right: calc( (100% - 800px) / 2 );
+            }
+        }
+        @media (max-width: 900px) {
+            footer > .row {
+                width: 600px;
+                margin-left: calc( (100% - 600px) / 2 );
+                margin-right: calc( (100% - 600px) / 2 );
+            }
+        }
+       
+            footer > .row > .footer-content {
+                width: 100%;
+            }
+            footer .text-list {
+                margin-bottom: 20px;
+            }
+            footer .text-list > .text {
+                width: 100%;
+            }
+            footer .text-list > .text:nth-child(2) {
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: 0;
+                margin-right: 0;
+                border: none;
+            }
+        }
+
     
