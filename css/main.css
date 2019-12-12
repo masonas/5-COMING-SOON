@@ -142,12 +142,28 @@ footer {
          width: 1000px;
          margin-left: calc( (100% - 1000px) / 2 );
          margin-right: calc( (100% - 1000px) / 2 );
-         }         
+         position: relative;
+         }
+         footer > .row > .btn.fa {
+            position: absolute;
+            top: -30px;
+            right: -18px;
+        }    
      footer > .row > .socials {
         display: inline-block;
         width: 100%;
+        padding: 20px;
         margin-bottom: 20px;
         border-bottom: 2px solid #fff;
+     }
+     footer > .row > .socials a {
+        display: inline-block;
+        width: 40px;
+        margin: 5px;
+        line-height: 40px;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
      }       
     footer > .row > .footer-content {
        display: inline-block;
@@ -169,8 +185,8 @@ footer {
         footer .text-list > .text:nth-child(2) {
             padding-left: 10px;
             padding-right: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
             border-left: 2px solid #fff;
             border-right: 2px solid #fff;
         }
@@ -191,6 +207,16 @@ footer {
                 margin-left: calc( (100% - 600px) / 2 );
                 margin-right: calc( (100% - 600px) / 2 );
             }
+            footer > .row > .btn.fa {
+                display: none;
+            }
+            @media (max-width: 700px) {
+                footer > .row {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    padding-left: 20px;
+                    padding-right: 20px;
         }
        
             footer > .row > .footer-content {
