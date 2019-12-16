@@ -1,0 +1,25 @@
+.btn {
+    display: inline-block;
+    min-width: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: #EA1E63;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #0001;
+    text-decoration: none;
+    cursor: pointer;
+}
+    .btn:hover {
+        box-shadow: 0 1px 4px #0009;
+    }
+    .btn.btn-blue {
+        background-color: #36f;
+    }
+    .btn.btn-round {
+        border-radius: 25px;
+    }
+    .btn.btn-round.fa {
+        padding: 15px;
+    }

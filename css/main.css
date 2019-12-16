@@ -1,10 +1,11 @@
+    
 .container {
     display: inline-block;
     width: 100%;
 }
 
 .bg-blue {
-    background-color: #03a9f3;
+    background-color: #03A9F3;
 }
 
 .hero {
@@ -24,7 +25,7 @@
         .hero > .row > img {
             display: inline-block;
             margin-bottom: 60px;
-    }
+        }
         .hero > .row > h1 {
             display: inline-block;
             width: 100%;
@@ -63,57 +64,57 @@
         padding-right: 20px;
     }
 }
- .content {
+.content {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color:  #fff;
-}    
-    .content .row {
+    background-color: #fff;
+}
+    .content > .row {
         display: inline-block;
         width: 1000px;
         margin-left: calc( (100% - 1000px) / 2 );
         margin-right: calc( (100% - 1000px) / 2 );
     }
-    .content > .row > .left {
-        display: inline-block;
-        width: 50%;
-        float: left;
-    }
-    .content > .row > .right {
-        display: inline-block;
-        width: 40%;
-        float: right;
-    }
-        .content > .row h3 {
+        .content > .row > .left {
             display: inline-block;
-            width: 100%;
-            margin-bottom: 30px;
-            text-transform: uppercase;
+            width: 50%;
+            float: left;
         }
-        .content > .row p {
+        .content > .row > .right {
             display: inline-block;
-            width: 100%;
-            margin-bottom: 30px;
-            font-size: 16px;
-            line-height: 20px;
+            width: 40%;
+            float: right;
         }
-            .content > .row p > a {
-                color: #EA1E63;
-                text-decoration: none;
+            .content > .row h3 {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 30px;
+                text-transform: uppercase;
             }
+            .content > .row p {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 30px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+                .content > .row p > a {
+                    color: #EA1E63;
+                    text-decoration: none;
+                }
 
 @media (max-width: 1100px) {
     .content > .row {
         width: 800px;
-        margin-left: calc( (100% - 800px ) / 2 );
-        margin-right: calc( (100% - 800px ) / 2 );
+        margin-left: calc( (100% - 800px) / 2 );
+        margin-right: calc( (100% - 800px) / 2 );
     }
 }
 @media (max-width: 900px) {
     .content > .row {
         width: 600px;
-        margin-left: calc( (100% - 600px ) / 2 );
-        margin-right: calc( (100% - 600px ) / 2 );
+        margin-left: calc( (100% - 600px) / 2 );
+        margin-right: calc( (100% - 600px) / 2 );
     }
         .content > .row > .left {
             width: 100%;
@@ -122,112 +123,112 @@
         .content > .row > .right {
             width: 100%;
         }
+}
+@media (max-width: 700px) {
+    .content > .row {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    @media (max-width: 700px) {
-        .content > .row {
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
+}
+
+footer {
+    padding-bottom: 60px;
+    text-align: center;
+}
+    footer > .row {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc( (100% - 1000px) / 2 );
+        margin-right: calc( (100% - 1000px) / 2 );
+        position: relative;
     }
- 
-footer { 
-     padding-bottom: 60px;
-     text-align: center;
- }  
-     footer .row {
-         display: inline-block;
-         width: 1000px;
-         margin-left: calc( (100% - 1000px) / 2 );
-         margin-right: calc( (100% - 1000px) / 2 );
-         position: relative;
-         }
-         footer > .row > .btn.fa {
+        footer > .row > .btn.fa {
             position: absolute;
             top: -30px;
             right: -18px;
-        }    
-     footer > .row > .socials {
-        display: inline-block;
-        width: 100%;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-bottom: 2px solid #fff;
-     }
-     footer > .row > .socials a {
-        display: inline-block;
-        width: 40px;
-        margin: 5px;
-        line-height: 40px;
-        font-size: 25px;
-        color: #fff;
-        text-decoration: none;
-     }       
-    footer > .row > .footer-content {
-       display: inline-block;
-       width: 600px;
-       color: rgba(255, 255, 255, 0.75);
-    }
-    footer .footer-content > img {
-        display: inline-block;
-        margin-bottom: 20px;
-    }
-    footer .footer-content > .text-list  {
-        display: inline-block;
-        width: 100%;
-      
-    }
-        footer .text-list .text {
+        }
+        footer > .row > .socials {
             display: inline-block;
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #fff;
         }
-        footer .text-list > .text:nth-child(2) {
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-left: 10px;
-            margin-right: 10px;
-            border-left: 2px solid #fff;
-            border-right: 2px solid #fff;
+            footer > .row > .socials > a {
+                display: inline-block;
+                width: 40px;
+                margin: 5px;
+                line-height: 40px;
+                font-size: 25px;
+                color: #fff;
+                text-decoration: none;
+            }
+        footer > .row > .footer-content {
+            display: inline-block;
+            width: 600px;
+            /* color: #fff; */
+            color: rgba(255, 255, 255, 0.75);
         }
-        footer .footer-content a {
-            color: #fff;
-            text-decoration: none;
-        }
+            footer .footer-content > img {
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            footer .footer-content > .text-list {
+                display: inline-block;
+                width: 100%;
+            }
+                footer .text-list > .text {
+                    display: inline-block;
+                }
+                    footer .text-list > .text:nth-child(2) {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        border-left: 2px solid #fff;
+                        border-right: 2px solid #fff;
+                    }
+                    footer .footer-content a {
+                        color: #fff;
+                    }
+
 @media (max-width: 1100px) {
     footer > .row {
         width: 800px;
         margin-left: calc( (100% - 800px) / 2 );
         margin-right: calc( (100% - 800px) / 2 );
-            }
+    }
+}
+@media (max-width: 900px) {
+    footer > .row {
+        width: 600px;
+        margin-left: calc( (100% - 600px) / 2 );
+        margin-right: calc( (100% - 600px) / 2 );
+    }
+    footer > .row > .btn.fa {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    footer > .row {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        footer > .row > .footer-content {
+            width: 100%;
         }
-        @media (max-width: 900px) {
-            footer > .row {
-                width: 600px;
-                margin-left: calc( (100% - 600px) / 2 );
-                margin-right: calc( (100% - 600px) / 2 );
-            }
-            footer > .row > .btn.fa {
-                display: none;
-            }
-            @media (max-width: 700px) {
-                footer > .row {
-                    width: 100%;
-                    margin-left: 0;
-                    margin-right: 0;
-                    padding-left: 20px;
-                    padding-right: 20px;
+        footer .text-list {
+            margin-bottom: 20px;
         }
-       
-            footer > .row > .footer-content {
-                width: 100%;
-            }
-            footer .text-list {
-                margin-bottom: 20px;
-            }
-            footer .text-list > .text {
-                width: 100%;
-            }
+        footer .text-list > .text {
+            width: 100%;
+        }
             footer .text-list > .text:nth-child(2) {
                 padding-left: 0;
                 padding-right: 0;
@@ -235,6 +236,4 @@ footer {
                 margin-right: 0;
                 border: none;
             }
-        }
-
-    
+     }
